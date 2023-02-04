@@ -1,0 +1,12 @@
+first created package.json by running npm init command 
+then npm i express mongoose body-parser config to install dependancies 
+body-parser: Allows us to get the data throughout the request
+express: Is our main framework
+mongoose: Is used to connect and interact with MongoDB
+config: This lets you define default parameters for your application
+
+then added nodemon by npm i -D nodemon
+
+then updated the package.json 
+
+then created first version of app.js 
