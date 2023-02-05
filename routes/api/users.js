@@ -3,7 +3,8 @@ let express = require('express'),
     mongoose = require('mongoose'),
     uuidv4 = require('uuid/v4'),
     router = express.Router(); 
-const DIR = './public/'; 
+const DIR = './public/';
+
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, DIR);
