@@ -15,7 +15,7 @@ app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send('Hello world!'));
 
-app.use('/api/products', products);
+app.use('/api/products', products); 
 app.use('/api/blog', blog);
 app.use('/api/users', user); 
 
