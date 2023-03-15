@@ -9,7 +9,7 @@ router.post('/', async (req, res) => {
     const blog = new Blog(req.body);
     try {
         await blog.save();
-        res.send(blog);
+        res.send(blog); 
     } catch (error) {
         res.status(400).send(error);
     }
